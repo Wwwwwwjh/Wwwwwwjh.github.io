@@ -13,15 +13,15 @@ design:
 sections:
   - block: biography
     content:
-      username: me
+      username: junhao-wu
       # Show a call-to-action button under your biography? (optional)
       button:
-        text: Download Résumé
-        url: uploads/resume.pdf
+        text: Download Resume
+        url: /uploads/profile.pdf
     design:
       banner:
         # Upload your cover image to the `assets/media/` folder and reference it here
-        filename: kalen-emsley-Bkci_8qcdvQ-unsplash.jpg
+        filename: background.jpg
       biography:
         # Customize the style of your biography text
         style: 'text-align: justify; font-size: 0.8em;'
@@ -31,7 +31,7 @@ sections:
         shape: rounded # Options: circle (default), square, rounded
   - block: experience
     content:
-      username: me
+      username: junhao-wu
     design:
       # Hugo date format
       date_format: 'January 2006'
@@ -40,13 +40,13 @@ sections:
   - block: skills
     content:
       title: Skills & Hobbies
-      username: me
+      username: junhao-wu
   - block: awards
     content:
       title: Awards
-      username: me
+      username: junhao-wu
   - block: languages
     content:
       title: Languages
-      username: me
+      username: junhao-wu
 ---

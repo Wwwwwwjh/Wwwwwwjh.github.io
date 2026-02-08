@@ -1,0 +1,63 @@
+slug: "junhao-wu"
+name:
+  display: "Junhao Wu"
+  family: "Wu"
+  given: "JunHao"
+  alternate: "吴俊豪"
+  pronunciation: "wu junhao"
+  pronouns: "he/him"
+role: "Student"
+bio: "I'm a junior CS student at Dalian University of Technology. I work on Vision-Language-Action (VLA) and robot manipulation, focusing on robustness and self-supervised learning."
+status:
+  icon: "👨‍💻"
+is_owner: true
+schema: "hugoblox/author/v1"
+links:
+  - icon: "brands/github"
+    url: "https://github.com/Wwwwwwjh"
+    label: "GitHub"
+  - icon: "hero/at-symbol"
+    url: "mailto:JunHaoWu7@outlook.com"
+    label: "Email"
+  - icon: "hero/at-symbol"
+    url: "mailto:1035304652@mail.dlut.edu.cn"
+    label: "Email"
+education:
+  - degree: "CS Undergrad"
+    institution: "Dalian University of Technology"
+    start: "2023-09-01"
+    end: ""
+    summary: ""
+interests:
+  - "VLA & Robot Manipulation"
+ids:
+  orcid: "0009-0007-7604-1203"
+skills:
+  - name: "Technical"
+    items:
+      - label: "Python"
+        level: 4
+      - label: "Pytorch"
+        level: 4
+languages:
+  - name: "Chinese"
+    level: 5
+    label: "Native"
+  - name: "English"
+    level: 4
+    label: "Fluent"
+  - name: "Deutsch"
+    level: 2
+    label: "Basic"
+experience:
+  - role: "Algorithm Intern"
+    org: "Xiamen Meiya Pico Information Co., Ltd. (AI Institute)"
+    start: "Jun 2025 "
+    end: "Aug 2025"
+    summary: "Contributed to a multimodal deepfake detection system that fuses semantic, frequency-domain, and spatial-domain features for social platform content moderation and evidence extraction. Worked with 100K+ data samples across multiple modalities; incorporated CLIP-based semantic features, a frequency-branch module (Freq-Net), and a spatial-branch module (CameraPrint), and applied mutual-consistency constraints and contrastive learning to improve fusion. Achieved 0.97 AUC on the validation set and 93%+ accuracy, delivering ~8 percentage-point improvement over a baseline model; explored lightweight deployment strategies."
+  - role: "Algorithm Intern"
+    org: "Wangxuan Institute of Computer Technology, Peking University"
+    start: "Nov 2025"
+    end: "Feb 2026"
+    summary: "VLA"
+affiliations: []
