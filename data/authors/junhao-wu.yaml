@@ -4,12 +4,16 @@ name:
   family: "Wu"
   given: "JunHao"
   alternate: "吴俊豪"
-  pronunciation: "wu junhao"
+  pronunciation: "junhao wu"
   pronouns: "he/him"
-role: "Student"
-bio: "I'm a junior CS student at Dalian University of Technology. I work on Vision-Language-Action (VLA) and robot manipulation, focusing on robustness and self-supervised learning."
-status:
-  icon: "👨‍💻"
+  role: "Undergraduate CS Student"
+bio: "I am an **undergraduate CS student** at Dalian University of Technology. My research interests focus on **Vision-Language-Action (VLA)** and **robot manipulation**, with an emphasis on robustness and self-supervised learning under distribution shifts. I led work on improving zero-shot generalization for VLA models and contributed to open-vocabulary person re-identification; both are currently under submission to **ICML 2026**. I also led the development of **MindCare**, a multimodal mental-health assessment system, and worked on robust multimodal forgery detection during an algorithm internship. I aim to develop reproducible, scalable methods that improve the reliability and generalization of VLA models in real-world settings.
+
+
+  <!-- spacer -->
+
+
+  <!-- spacer -->\n"
 is_owner: true
 schema: "hugoblox/author/v1"
 links:
@@ -19,15 +23,32 @@ links:
   - icon: "hero/at-symbol"
     url: "mailto:JunHaoWu7@outlook.com"
     label: "Email"
-  - icon: "hero/at-symbol"
-    url: "mailto:1035304652@mail.dlut.edu.cn"
-    label: "Email"
 education:
   - degree: "CS Undergrad"
     institution: "Dalian University of Technology"
-    start: "2023-09-01"
+    start: "Sep 2023"
     end: ""
-    summary: ""
+    summary: "- During my studies, I have developed a solid and well-rounded profile across academics, student leadership, and innovation competitions: \ 
+
+      &nbsp;
+
+      - **Academic Performance**: Major in **Computer Science and Technology** with a weighted GPA of <font color=#af0000>**93.15**</font> over the first five semesters, ranking <font color=#af0000>**2/154**</font> in my major. I am also pursuing a minor in **International Organizations and Global Governance**.  \ 
+
+      &nbsp;
+
+      - **Honors & Awards**: Recipient of the <font color=#af0000>**National Scholarship**</font> for **two consecutive years**; awarded <font color=#af0000>**Outstanding Student Model**</font> at Dalian University of Technology (**top 10 university-wide**). \ 
+
+      &nbsp;
+
+      - **Student Leadership**: Serving as **a member of the Student Union Presidium in the School of Computer Science**, with strong experience in organization, coordination, and team management. \ 
+
+      &nbsp;
+
+      - **English Proficiency**:   **CET-4: <font color=#af0000>618</font>**(Oral: Excellent), **CET-6: <font color=#af0000>585</font>** (Oral: Good). \ 
+
+      &nbsp;
+
+      - **Innovation & Competitions**: Actively engaged in research and innovation competitions, earning <font color=#af0000>**4 national-level awards**</font> and <font color=#af0000>**40+ awards**</font> at various levels, with hands-on experience in project execution and delivering outcomes. \ \n"
 interests:
   - "VLA & Robot Manipulation"
 ids:
@@ -39,6 +60,12 @@ skills:
         level: 4
       - label: "Pytorch"
         level: 4
+  - name: "<span class='hobbies-title'>Hobbies</span>"
+    items:
+      - label: "Gym"
+        level: 4
+      - label: "Basketball"
+        level: 3
 languages:
   - name: "Chinese"
     level: 5
@@ -47,17 +74,37 @@ languages:
     level: 4
     label: "Fluent"
   - name: "Deutsch"
-    level: 2
+    level: 3
     label: "Basic"
 experience:
+  - role: "Research Intern"
+    org: "Wangxuan Institute of Computer Technology, Peking University"
+    start: "Nov 2025"
+    end: "Feb 2026"
+    summary: "We systematically analyzed the performance degradation of OpenVLA under **visual distribution shifts** and attributed it to environmental perturbations in visual representations. Based on this insight, we developed **a self-supervised training framework** for the vision encoder, introducing **a small number of learnable prompt tokens** optimized with **a redundancy-reduction objective**. Without requiring target-domain data or language model updates, the method effectively enhances visual invariance. Experiments on LIBERO-plus demonstrate consistent robustness improvements under **lighting, layout, and background shifts**, along with **strong zero-shot generalization capability**.
+
+
+
+      ![WicT](Wict.png)\n"
   - role: "Algorithm Intern"
     org: "Xiamen Meiya Pico Information Co., Ltd. (AI Institute)"
     start: "Jun 2025 "
     end: "Aug 2025"
-    summary: "Contributed to a multimodal deepfake detection system that fuses semantic, frequency-domain, and spatial-domain features for social platform content moderation and evidence extraction. Worked with 100K+ data samples across multiple modalities; incorporated CLIP-based semantic features, a frequency-branch module (Freq-Net), and a spatial-branch module (CameraPrint), and applied mutual-consistency constraints and contrastive learning to improve fusion. Achieved 0.97 AUC on the validation set and 93%+ accuracy, delivering ~8 percentage-point improvement over a baseline model; explored lightweight deployment strategies."
-  - role: "Algorithm Intern"
-    org: "Wangxuan Institute of Computer Technology, Peking University"
-    start: "Nov 2025"
-    end: "Feb 2026"
-    summary: "VLA"
+    summary: "Contributed to **a multimodal deepfake detection system**d that fuses semantic, frequency-domain, and spatial-domain features for social platform content moderation and evidence extraction. Worked with <font color=#af0000>**100K+ data samples**</font> across multiple modalities; incorporated CLIP-based semantic features, a frequency-branch module (Freq-Net), and a spatial-branch module (CameraPrint), and applied mutual-consistency constraints and contrastive learning to improve fusion. Achieved <font color=#af0000>**0.97 AUC**</font> on the validation set and <font color=#af0000>**93%+**</font> accuracy, delivering <font color=#af0000>**~8 percentage-point**</font> improvement over a baseline model;\ 
+
+
+      ![MeiyaPico](MeiyaPico.png)\n"
 affiliations: []
+status:
+  icon: "🔥"
+awards:
+  - title: "National Scholarship 2024,2025"
+    awarder: "The Central People's Government of the People's Republic of China"
+    date: "2024、2025"
+    summary: ""
+    icon: "hero/trophy"
+  - title: "Outstanding Student Model(Top 1/10)"
+    awarder: "Dalian University of Technology"
+    date: "Oct 2025"
+    summary: ""
+    icon: "hero/trophy"

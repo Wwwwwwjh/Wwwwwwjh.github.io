@@ -1,0 +1,151 @@
+/*头像部分*/
+/* 把 banner 容器加高：头像位置一般不会受影响（它在下面/叠加层） */
+#section-resume-biography .h-2\/4{
+  height: 26rem !important; /* 你可改成 24rem/28rem 试 */
+}
+#section-resume-biography .sm\:h-64{
+  height: 26rem !important;
+}
+
+/* 可选：让裁剪位置更合理（比如偏上，让山多露一点） */
+#section-resume-biography img.object-cover{
+  object-position: center 30% !important; /* 30% 表示稍微偏上 */
+}
+
+
+/*biography*/
+
+/*下载按钮*/
+a[href="/uploads/profile.pdf"] svg {
+  width: 1.5rem !important;   /* 28px */
+  height: 1.5rem !important;  /* 28px */
+}
+a[href="/uploads/profile.pdf"]{
+  font-size: 1.3rem !important;   /* 原来 text-sm，大概 0.875rem */
+  padding: 0.75rem 1.25rem !important;  /* 可选：按钮变大一点 */
+}
+a[href="/uploads/profile.pdf"]{
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 0.65rem !important;     /* 用 gap 代替 me-2.5 的视觉偏差 */
+  line-height: 1 !important;
+}
+
+/* 取消 svg 自带的 margin（避免一边大一边小导致看起来偏） */
+a[href="/uploads/profile.pdf"] > svg{
+  margin-right: 0 !important;
+  flex: 0 0 auto !important;
+  display: block !important;   /* 解决 svg baseline 导致的“下坠感” */
+}
+
+
+
+/* Experience */
+
+
+/* Experience 里 summary 的图片整体向右挪一点 */
+
+section#section-resume-experience img[alt="WicT"] {
+  margin-left: 40px !important;
+}
+section#section-resume-experience img[alt="MeiyaPico"] {
+  margin-left: 3px !important;
+}
+/* Experience：让文字和紧跟着的图片之间空一格（加间距） */
+section#section-resume-experience p + figure {
+  margin-top: 16px !important;
+}
+
+
+
+
+
+
+/* Language */
+
+/* 英语（Languages 里的第 2 个圆环） */
+#section-resume-languages .flex.flex-col.items-center:nth-of-type(2) svg circle.text-primary-600,
+#section-resume-languages .flex.flex-col.items-center:nth-of-type(2) svg circle.dark\:text-primary-300 {
+  stroke: #00b6cc !important; 
+}
+/* 中文（Languages 里的第 1 个圆环） */
+#section-resume-languages .flex.flex-col.items-center:nth-of-type(1) svg circle.text-primary-600,
+#section-resume-languages .flex.flex-col.items-center:nth-of-type(1) svg circle.dark\:text-primary-300 {
+  stroke: #0082ff!important; 
+}
+/* 德语（Languages 里的第 3 个圆环） */
+#section-resume-languages .flex.flex-col.items-center:nth-of-type(3) svg circle.text-primary-600,
+#section-resume-languages .flex.flex-col.items-center:nth-of-type(3) svg circle.dark\:text-primary-300 {
+  stroke: #00cba0 !important; 
+}
+
+
+/* Skill and Hobby */
+/* Hobbies 的实心条 */
+.wg-skills .skill-group:nth-of-type(2) .progress-bar {
+  background-color: #f59e0b !important; 
+}
+
+/* Hobbies 的轨道（空心背景） */
+.wg-skills .skill-group:nth-of-type(2) .progress {
+  background-color: rgba(245, 158, 11, 0.18) !important;
+}
+
+/*留白*/
+
+/* 缩小 Biography 和 Experience 之间的留白 */
+section#section-resume-biography {
+  padding-bottom: 1.2rem !important;   
+}
+
+section#section-resume-experience {
+  padding-top: 2rem !important;
+}
+
+
+
+/* 减小 Experience 的下 padding */
+#section-resume-experience {
+  padding-bottom: 0rem !important;  
+}
+
+/* 同时减小 Portfolio 的上 padding */
+#section-portfolio {
+  padding-top: 0rem !important;
+}
+
+/* 同时减小 Portfolio 的下paddind */
+#section-portfolio {
+  padding-bottom: 0rem !important;
+}
+
+/* 减少 Projects(portfolio) 这个块内部上下留白（py-16） */
+#section-portfolio > .mx-auto.max-w-7xl.py-16 {
+  padding-top: 3rem !important;
+  padding-bottom: 1rem !important;
+}
+
+#section-portfolio h2.text-3xl {
+  font-size: 2rem !important;   
+  line-height: 2rem !important;
+}
+
+/* 减小 skills 的上 padding */
+#section-resume-languages {
+  padding-top: 0rem !important;  
+}
+/* 减小 skills 的下 padding */
+#section-resume-languages {
+  padding-bottom: 7rem !important;  
+}
+
+/* 减小 skills 的上 padding */
+#section-resume-skills {
+  padding-top: 0rem !important;  
+}
+
+/* 减小 skills 的下 padding */
+#section-resume-skills {
+  padding-bottom: 0rem !important;  
+}

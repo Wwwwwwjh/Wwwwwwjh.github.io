@@ -5,7 +5,7 @@ type: landing
 
 design:
   # Default section spacing
-  spacing: '4rem'
+  spacing: '3rem'
 
 # Note: `username` refers to the user's folder name in `content/authors/`
 
@@ -22,31 +22,76 @@ sections:
       banner:
         # Upload your cover image to the `assets/media/` folder and reference it here
         filename: background.jpg
+        
       biography:
         # Customize the style of your biography text
         style: 'text-align: justify; font-size: 0.8em;'
       # Avatar customization
       avatar:
         size: large # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
-        shape: rounded # Options: circle (default), square, rounded
+        shape: circle # Options: circle (default), square, rounded
   - block: experience
     content:
       username: junhao-wu
     design:
       # Hugo date format
-      date_format: 'January 2006'
+      date_format: 'January 2026'
       # Education or Experience section first?
       is_education_first: false
-  - block: skills
+  - block: portfolio
     content:
-      title: Skills & Hobbies
-      username: junhao-wu
+      title: Projects
+      subtitle: ""
+      count: 5
+      filters:
+        tags: []
+        categories: []
+        exclude_featured: false
+    design:
+      view: compact
+      columns: 1
+      full_width: true
   - block: awards
     content:
       title: Awards
       username: junhao-wu
+  - block: collection
+    content:
+      title: Events
+      subtitle: ""
+      # 告诉它读取哪类内容
+      page_type: events
+      # 显示数量
+      count: 5
+      # 过滤
+      filters:
+        tags: []
+        categories: []
+        featured_only: false
+    design:
+      view: compact
+      columns: 1
+      full_width: true
+
+  - block: collection
+    content:
+      title: Slides
+      subtitle: ""
+      page_type: slides
+      count: 5
+      filters:
+        folders:
+          - slides
+    design:
+      view: card
+      columns: 1
+      full_width: true
   - block: languages
     content:
       title: Languages
+      username: junhao-wu
+  - block: skills
+    content:
+      title: Skills & Hobbies
       username: junhao-wu
 ---
