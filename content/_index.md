@@ -30,6 +30,10 @@ sections:
       avatar:
         size: large # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
         shape: circle # Options: circle (default), square, rounded
+  - block: languages
+    content:
+      title: Languages
+      username: junhao-wu
   - block: experience
     content:
       username: junhao-wu
@@ -51,10 +55,7 @@ sections:
       view: compact
       columns: 1
       full_width: true
-  - block: awards
-    content:
-      title: Awards
-      username: junhao-wu
+
   - block: collection
     content:
       title: Events
@@ -86,12 +87,12 @@ sections:
       view: card
       columns: 1
       full_width: true
-  - block: languages
-    content:
-      title: Languages
-      username: junhao-wu
   - block: skills
     content:
       title: Skills & Hobbies
+      username: junhao-wu
+  - block: awards
+    content:
+      title: Awards
       username: junhao-wu
 ---

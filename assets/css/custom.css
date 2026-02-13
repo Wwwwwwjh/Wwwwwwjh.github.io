@@ -1,18 +1,16 @@
 /*头像部分*/
-/* 把 banner 容器加高：头像位置一般不会受影响（它在下面/叠加层） */
-#section-resume-biography .h-2\/4{
-  height: 26rem !important; /* 你可改成 24rem/28rem 试 */
-}
-#section-resume-biography .sm\:h-64{
-  height: 26rem !important;
+/* 只作用于主页的 Biography section */
+#section-resume-biography .h-2\/4.sm\:h-64 {
+  height: 600px !important;  /* 你可以改 420/480/520 试 */
 }
 
-/* 可选：让裁剪位置更合理（比如偏上，让山多露一点） */
-#section-resume-biography img.object-cover{
-  object-position: center 30% !important; /* 30% 表示稍微偏上 */
+/* 背景图更好看：居中裁切 */
+#section-resume-biography img.object-cover {
+  object-position: center center !important;
 }
-
-
+#section-resume-biography .avatar-wrapper {
+  margin-top: -250px !important; /* 按你的实际高度微调 */
+}
 /*biography*/
 
 /*下载按钮*/
@@ -59,7 +57,28 @@ section#section-resume-experience p + figure {
 
 
 
+/* award */
+#section-resume-awards .flex.flex-col.gap-6 {
+  display: grid !important;
+  /* 在宽屏下显示为两列 */
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem; /* 对应 Tailwind 的 gap-6 */
+  align-items: stretch !important; /* 确保同一行高度拉平 */
+}
 
+
+/* 适配移动端：当屏幕宽度小于 768px 时恢复为一列 */
+@media (max-width: 768px) {
+  #section-resume-awards .flex.flex-col.gap-6 {
+      grid-template-columns: 1fr;
+  }
+}
+/* 移除 max-w-prose 限制，让奖项部分可以利用更多横向空间 */
+#section-resume-awards .max-w-prose {
+  max-width: 100% !important;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
 
 
 /* Language */
@@ -93,6 +112,12 @@ section#section-resume-experience p + figure {
 }
 
 /*留白*/
+
+/* 减小 background的上 padding */
+#section-resume-biography {
+  padding-top: 0rem !important;  
+}
+
 
 /* 缩小 Biography 和 Experience 之间的留白 */
 section#section-resume-biography {
@@ -131,13 +156,13 @@ section#section-resume-experience {
   line-height: 2rem !important;
 }
 
-/* 减小 skills 的上 padding */
+/* 减小 language的上 padding */
 #section-resume-languages {
-  padding-top: 0rem !important;  
+  padding-top: 5rem !important;  
 }
 /* 减小 skills 的下 padding */
 #section-resume-languages {
-  padding-bottom: 7rem !important;  
+  padding-bottom: 5rem !important;  
 }
 
 /* 减小 skills 的上 padding */
@@ -147,5 +172,10 @@ section#section-resume-experience {
 
 /* 减小 skills 的下 padding */
 #section-resume-skills {
+  padding-bottom: 0rem !important;  
+}
+
+/* 减小 skills 的下 padding */
+#section-resume-awards {
   padding-bottom: 0rem !important;  
 }

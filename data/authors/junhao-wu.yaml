@@ -28,27 +28,12 @@ education:
     institution: "Dalian University of Technology"
     start: "Sep 2023"
     end: ""
-    summary: "- During my studies, I have developed a solid and well-rounded profile across academics, student leadership, and innovation competitions: \ 
-
-      &nbsp;
-
-      - **Academic Performance**: Major in **Computer Science and Technology** with a weighted GPA of <font color=#af0000>**93.15**</font> over the first five semesters, ranking <font color=#af0000>**2/154**</font> in my major. I am also pursuing a minor in **International Organizations and Global Governance**.  \ 
-
-      &nbsp;
-
-      - **Honors & Awards**: Recipient of the <font color=#af0000>**National Scholarship**</font> for **two consecutive years**; awarded <font color=#af0000>**Outstanding Student Model**</font> at Dalian University of Technology (**top 10 university-wide**). \ 
-
-      &nbsp;
-
-      - **Student Leadership**: Serving as **a member of the Student Union Presidium in the School of Computer Science**, with strong experience in organization, coordination, and team management. \ 
-
-      &nbsp;
-
-      - **English Proficiency**:   **CET-4: <font color=#af0000>618</font>**(Oral: Excellent), **CET-6: <font color=#af0000>585</font>** (Oral: Good). \ 
-
-      &nbsp;
-
-      - **Innovation & Competitions**: Actively engaged in research and innovation competitions, earning <font color=#af0000>**4 national-level awards**</font> and <font color=#af0000>**40+ awards**</font> at various levels, with hands-on experience in project execution and delivering outcomes. \ \n"
+    summary: "- During my studies, I have developed a solid and well-rounded profile across academics, student leadership, and innovation competitions:<br><br>
+      - **Academic Performance**: Major in **Computer Science and Technology** with a weighted GPA of <font color=#af0000>**93.15**</font> over the first five semesters, ranking <font color=#af0000>**2/154**</font> in my major. I am also pursuing a minor in **International Organizations and Global Governance**.<br><br>
+      - **Honors & Awards**: Recipient of the <font color=#af0000>**National Scholarship**</font> for **two consecutive years**; awarded <font color=#af0000>**Outstanding Student Model**</font> at Dalian University of Technology (**top 10 university-wide**).<br><br>
+      - **Student Leadership**: Serving as **a member of the Student Union Presidium in the School of Computer Science**, with strong experience in organization, coordination, and team management.<br><br>
+      - **English Proficiency**:   **CET-4: <font color=#af0000>618</font>**(Oral: Excellent), **CET-6: <font color=#af0000>585</font>** (Oral: Good).<br><br>
+      - **Innovation & Competitions**: Actively engaged in research and innovation competitions, earning <font color=#af0000>**4 national-level awards**</font> and <font color=#af0000>**40+ awards**</font> at various levels, with hands-on experience in project execution and delivering outcomes."
 interests:
   - "VLA & Robot Manipulation"
 ids:
@@ -98,13 +83,57 @@ affiliations: []
 status:
   icon: "🔥"
 awards:
+    #2024、2025年国家奖学金
   - title: "National Scholarship 2024,2025"
     awarder: "The Central People's Government of the People's Republic of China"
     date: "2024、2025"
     summary: ""
     icon: "hero/trophy"
+    #标兵
   - title: "Outstanding Student Model(Top 1/10)"
     awarder: "Dalian University of Technology"
     date: "Oct 2025"
+    summary: ""
+    icon: "hero/sparkles"
+     #优秀三好学生
+  - title: "Outstanding Merit Student"
+    awarder: "Dalian University of Technology"
+    date: "2024、2025"
+    summary: ""
+    icon: "hero/check-badge"
+    #2025年第九届华为ICT大赛 国家三等奖
+  - title: "Third Prize, Huawei ICT Competition"
+    awarder: "Huawei ICT, China"
+    date: "Mar 2025" 
+    summary: ""
+    icon: "hero/trophy"
+    #2025年美国大学生数学建模大赛（MCM/ICM） M奖
+  - title: "Meritorious Winner (M Award), Mathematical Contest in Modeling (MCM/ICM)"
+    awarder: "COMAP, USA"
+    date: "May 2025"
+    summary: ""
+    icon: "hero/trophy"
+    #全国大学生英语竞赛（NECCS） 国家三等奖
+  - title: "Third Prize, National English Competition for College Students (NECCS)"
+    awarder: "National English Competition for College Students"
+    date: ""
+    summary: "May 2025"
+    icon: "hero/trophy"
+    #2025全国大学生数学建模竞赛省一等奖
+  - title: "First Prize, China Undergraduate Mathematical Contest in Modeling (CUMCM)"
+    awarder: "China Undergraduate Mathematical Contest in Modeling"
+    date: "2025"
+    summary: ""
+    icon: "hero/trophy"
+    #2024辽宁省iCAN创新创业大赛 省二等奖
+  - title: "Second Prize, iCAN Innovation & Entrepreneurship Competition"
+    awarder: "iCAN Innovation & Entrepreneurship Competition"
+    date: "Oct 2024"
+    summary: ""
+    icon: "hero/trophy"
+    #2024年21世纪中国日报社英语演讲比赛校二等奖
+  - title: "Second Prize, 21st Century Cup National English Speaking Competition"
+    awarder: "China Daily"
+    date: "Mar 2024"
     summary: ""
     icon: "hero/trophy"
