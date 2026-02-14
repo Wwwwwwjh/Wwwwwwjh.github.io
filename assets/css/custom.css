@@ -105,15 +105,15 @@ section#section-resume-experience p + figure {
 
 /* --- 1. 进度条颜色彻底修改 --- */
 
-/* 左侧 Skills 进度条颜色：紫色 */
+/* 左侧 Skills 进度条颜色： */
 #section-resume-skills .grid > div:first-child .skills-percent {
-    background-color: #7c3aed !important; /* 紫色 */
+    background-color: #7f6fa1 !important; /*  */
     background-image: none !important;
 }
 
-/* 右侧 Hobbies 进度条颜色：青色 */
+/* 右侧 Hobbies 进度条颜色： */
 #section-resume-skills .grid > div:last-child .skills-percent {
-    background-color: #0891b2 !important; /* 青色 */
+    background-color: #00b6cc !important; /*  */
     background-image: none !important;
 }
 
@@ -270,3 +270,34 @@ section#section-resume-experience {
 } 
 
 
+/* 1. 移除所有遮罩层和背景干扰 */
+article div.absolute.inset-0.bg-gradient-to-t {
+  display: none !important;
+}
+
+/* 2. 重置父容器：确保容器宽度 100% 且高度自适应 */
+article .relative.h-48.overflow-hidden {
+  height: auto !important;          /* 撤销固定高度 */
+  aspect-ratio: 16 / 9 !important; /* 匹配你的展板原图比例 */
+  overflow: visible !important;    /* 允许图片溢出显示，防止边缘被切 */
+  display: block !important;
+}
+
+/* 3. 核心修复：强制图片靠左对齐，取消任何居中平移 */
+article img[alt*="MindCare"] {
+  position: relative !important;    /* 变绝对定位为相对定位，这是不被裁剪的关键 */
+  width: 100% !important;           /* 宽度充满容器 */
+  height: auto !important;          /* 高度等比例缩放 */
+  object-fit: contain !important;   /* 确保内容完整显示 */
+  
+  /* 彻底重置可能导致左侧被切的定位属性 */
+  left: 0 !important;               /* 强制靠左 */
+  top: 0 !important;                /* 强制靠上 */
+  transform: none !important;       /* 彻底禁用任何位移/缩放动画干扰 */
+  margin: 0 !important;             /* 移除任何外边距 */
+}
+
+/* 4. 确保项目卡片容器不限制内部高度 */
+article.group.relative.flex.flex-col {
+  height: auto !important;
+} 
