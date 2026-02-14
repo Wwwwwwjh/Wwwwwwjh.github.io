@@ -39,18 +39,30 @@ interests:
 ids:
   orcid: "0009-0007-7604-1203"
 skills:
-  - name: "Technical"
+  - name: "Skills"
     items:
-      - label: "Python"
+      - label: "Leadership"
+        level: 5
+      - label: "Mathematical Modeling"
         level: 4
-      - label: "Pytorch"
+      - label: "Communication"
         level: 4
+      - label: "Python / PyTorch"
+        level: 4
+      - label: "LaTeX"
+        level: 3
   - name: "<span class='hobbies-title'>Hobbies</span>"
     items:
+      - label: "Marathon"
+        level: 5
       - label: "Gym"
         level: 4
+      - label: "Piano"
+        level: 4
+      - label: "Drum"
+        level: 4
       - label: "Basketball"
-        level: 3
+        level: 4
 languages:
   - name: "Chinese"
     level: 5

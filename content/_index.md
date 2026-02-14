@@ -46,14 +46,14 @@ sections:
     content:
       title: Projects
       subtitle: ""
-      count: 5
+      count: 3
       filters:
         tags: []
         categories: []
         exclude_featured: false
     design:
-      view: compact
-      columns: 1
+      view: card
+      columns: 3
       full_width: true
 
   - block: collection
@@ -63,36 +63,22 @@ sections:
       # 告诉它读取哪类内容
       page_type: events
       # 显示数量
-      count: 5
+      count: 3
       # 过滤
       filters:
         tags: []
         categories: []
         featured_only: false
     design:
-      view: compact
-      columns: 1
-      full_width: true
-
-  - block: collection
-    content:
-      title: Slides
-      subtitle: ""
-      page_type: slides
-      count: 5
-      filters:
-        folders:
-          - slides
-    design:
       view: card
-      columns: 1
+      columns: 2
       full_width: true
-  - block: skills
-    content:
-      title: Skills & Hobbies
-      username: junhao-wu
   - block: awards
     content:
       title: Awards
+      username: junhao-wu
+  - block: skills
+    content:
+      title: Skills & Hobbies
       username: junhao-wu
 ---

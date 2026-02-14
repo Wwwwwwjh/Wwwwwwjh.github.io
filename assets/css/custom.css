@@ -69,7 +69,7 @@ section#section-resume-experience p + figure {
 
 /* 适配移动端：当屏幕宽度小于 768px 时恢复为一列 */
 @media (max-width: 768px) {
-  #section-resume-awards .flex.flex-col.gap-6 {
+  #section-resume-awards .flex.flex-col.gap-6 {  
       grid-template-columns: 1fr;
   }
 }
@@ -101,15 +101,90 @@ section#section-resume-experience p + figure {
 
 
 /* Skill and Hobby */
-/* Hobbies 的实心条 */
-.wg-skills .skill-group:nth-of-type(2) .progress-bar {
-  background-color: #f59e0b !important; 
+
+
+/* --- 1. 进度条颜色彻底修改 --- */
+
+/* 左侧 Skills 进度条颜色：紫色 */
+#section-resume-skills .grid > div:first-child .skills-percent {
+    background-color: #7c3aed !important; /* 紫色 */
+    background-image: none !important;
 }
 
-/* Hobbies 的轨道（空心背景） */
-.wg-skills .skill-group:nth-of-type(2) .progress {
-  background-color: rgba(245, 158, 11, 0.18) !important;
+/* 右侧 Hobbies 进度条颜色：青色 */
+#section-resume-skills .grid > div:last-child .skills-percent {
+    background-color: #0891b2 !important; /* 青色 */
+    background-image: none !important;
 }
+
+/* --- 2. 标题各自居中对齐 --- */
+
+/* 针对两个小标题所在的容器 */
+#section-resume-skills .w-full .mb-5 {
+    display: flex !important;
+    justify-content: center !important; /* 水平居中 */
+    text-align: center !important;
+    width: 100% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+/* 移除可能存在的浮动或偏移 */
+#section-resume-skills .skills-title,
+#section-resume-skills .hobbies-title {
+    margin: 0 auto !important;
+    display: inline-block !important;
+}
+
+/* --- 3. 整体布局微调 (确保等宽) --- */
+#section-resume-skills .grid {
+    gap: 3rem !important;
+    justify-items: center !important;
+}
+
+#section-resume-skills .w-full {
+    max-width: 400px !important; /* 限制宽度让居中更明显 */
+}
+
+/*event*/
+
+/* 1. 统一解除容器宽度限制 */
+#section-collection .container, 
+#section-collection .max-w-prose,
+#section-collection .max-w-\[65ch\] {
+    max-width: 100% !important;
+    width: 95% !important;
+    margin: 0 auto !important;
+}
+
+/* 2. 强制 Projects 和 Events 的 Grid 布局一致 */
+#section-collection .grid,
+#section-collection .grid-cols-1 {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important; /* 强制三列 */
+    gap: 2rem !important;
+}
+
+/* 3. 确保卡片高度统一且内容对齐 */
+#section-collection .grid > div,
+#section-collection article {
+    display: flex !important;
+    flex-direction: column !important;
+    height: 100% !important; /* 保证格子一样大 */
+    min-height: 400px; /* 根据你的图片预览设置合适高度 */
+}
+
+/* 4. 适配移动端：手机上恢复为单列 */
+@media (max-width: 768px) {
+    #section-collection .grid,
+    #section-collection .grid-cols-1 {
+        grid-template-columns: 1fr !important;
+    }
+}
+
+
+
+
 
 /*留白*/
 
@@ -156,11 +231,22 @@ section#section-resume-experience {
   line-height: 2rem !important;
 }
 
+
+/* 减小 collection的上 padding */
+#section-collection {
+  padding-top: 4rem !important;  
+}
+/* 减小 collection 的下 padding */
+#section-collection {
+  padding-bottom: 4rem !important;  
+}
+
+
 /* 减小 language的上 padding */
 #section-resume-languages {
   padding-top: 5rem !important;  
 }
-/* 减小 skills 的下 padding */
+/* 减小 language 的下 padding */
 #section-resume-languages {
   padding-bottom: 5rem !important;  
 }
@@ -174,8 +260,13 @@ section#section-resume-experience {
 #section-resume-skills {
   padding-bottom: 0rem !important;  
 }
-
-/* 减小 skills 的下 padding */
+/* 减小 award 的下 padding */
 #section-resume-awards {
-  padding-bottom: 0rem !important;  
-}
+  padding-top: 4rem !important;  
+} 
+/* 减小 award 的下 padding */
+#section-resume-awards {
+  padding-bottom: 4rem !important;  
+} 
+
+
