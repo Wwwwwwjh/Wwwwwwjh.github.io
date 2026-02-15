@@ -78,14 +78,14 @@ experience:
     org: "Wangxuan Institute of Computer Technology, Peking University"
     start: "Nov 2025"
     end: "Feb 2026"
-    summary: "We systematically analyzed the performance degradation of OpenVLA under **visual distribution shifts** and attributed it to environmental perturbations in visual representations. Based on this insight, we developed **a self-supervised training framework** for the vision encoder, introducing **a small number of learnable prompt tokens** optimized with **a redundancy-reduction objective**. Without requiring target-domain data or language model updates, the method effectively enhances visual invariance. Experiments on LIBERO-plus demonstrate consistent robustness improvements under **lighting, layout, and background shifts**, along with **strong zero-shot generalization capability**.
+    summary: "Serving as a Research Intern at **OV3Lab**, under the supervision of **Professor Jiahuan Zhou**. We systematically analyzed the performance degradation of OpenVLA under **visual distribution shifts** and attributed it to environmental perturbations in visual representations. Based on this insight, we developed **a self-supervised training framework** for the vision encoder, introducing **a small number of learnable prompt tokens** optimized with **a redundancy-reduction objective**. Without requiring target-domain data or language model updates, the method effectively enhances visual invariance. Experiments on LIBERO-plus demonstrate consistent robustness improvements under **lighting, layout, and background shifts**, along with **strong zero-shot generalization capability**.
 
 
 
       ![WicT](Wict.png)\n"
   - role: "Algorithm Intern"
-    org: "Xiamen Meiya Pico Information Co., Ltd. (AI Institute)"
-    start: "Jun 2025 "
+    org: "SDIC Intelligence Xiamen Information Co., Ltd (AI Institute)"
+    start: "Mar 2025 "
     end: "Aug 2025"
     summary: "Contributed to **a multimodal deepfake detection system**d that fuses semantic, frequency-domain, and spatial-domain features for social platform content moderation and evidence extraction. Worked with <font color=#af0000>**100K+ data samples**</font> across multiple modalities; incorporated CLIP-based semantic features, a frequency-branch module (Freq-Net), and a spatial-branch module (CameraPrint), and applied mutual-consistency constraints and contrastive learning to improve fusion. Achieved <font color=#af0000>**0.97 AUC**</font> on the validation set and <font color=#af0000>**93%+**</font> accuracy, delivering <font color=#af0000>**~8 percentage-point**</font> improvement over a baseline model;\ 
 
