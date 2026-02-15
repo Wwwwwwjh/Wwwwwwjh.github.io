@@ -51,6 +51,8 @@ sections:
         tags: []
         categories: []
         exclude_featured: false
+      sort_by: Weight
+      sort_ascending: true
     design:
       view: card
       columns: 3

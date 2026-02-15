@@ -1,15 +1,19 @@
-
-
 ---
 title: MindCare v6.0
 date: 2024-10-14
 draft: false
+weight: 10
 summary: MindCare is an intelligent diagnosis system  focused on the mental
   health of teenagers. It integrates virtual reality and cloud technology to
   establish a local-cloud collaborative architecture.
 links:
   - type: github
+    name: github
     url: https://github.com/Wwwwwwjh/MindCare.git
+  - icon: hero/clipboard-document-check
+    name: PDF
+    type: PDF
+    url: /uploads/MindCare.pdf
 tags:
   - Project
 
