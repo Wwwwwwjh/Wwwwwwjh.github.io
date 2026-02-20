@@ -7,7 +7,7 @@ name:
   pronunciation: "junhao wu"
   pronouns: "he/him"
   role: "Undergraduate CS Student"
-bio: "I am an **undergraduate CS student** at Dalian University of Technology. My research interests focus on **Vision-Language-Action (VLA)** and **robot manipulation**, with an emphasis on robustness and self-supervised learning under distribution shifts. I led work on improving zero-shot generalization for VLA models and contributed to open-vocabulary person re-identification; both are currently under submission to **ICML 2026**. I also led the development of **MindCare**, a multimodal mental-health assessment system, and worked on robust multimodal forgery detection during an algorithm internship. I aim to develop reproducible, scalable methods that improve the reliability and generalization of VLA models in real-world settings.
+bio: "I am an **undergraduate CS student** at Dalian University of Technology. My research interests focus on **Vision-Language-Action (VLA)** and **robot manipulation**, with an emphasis on robustness and self-supervised learning under distribution shifts. I led work on improving zero-shot generalization for VLA models and contributed to Open-Vocabulary Pedestrian Attribute Recognition; both are currently under submission to **ICML 2026**. I also led the development of **MindCare**, a multimodal mental-health assessment system, and worked on robust multimodal forgery detection during an algorithm internship. I aim to develop reproducible, scalable methods that improve the reliability and generalization of VLA models in real-world settings.
 
 
   <!-- spacer -->
